@@ -1,0 +1,184 @@
+body{
+    font-family: poppins;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.navbar-brand img{
+    height: 70px;
+}
+
+.sign-btn{
+    padding: 12px 0px 0px 28px;
+    border-radius: 33px;
+    background-color: #21B573;
+    color: white;
+}
+
+.sign-btn a{
+    color: white !important;
+}
+
+.ready-text{
+    color: #FD511A;
+}
+
+span{
+    color: #21B573 !important;
+}
+.get-btn{
+
+    margin-top: 30px;
+    
+}
+.get-btn a{
+    color: white;
+    text-align: center;
+    padding: 10px 36px;
+    background-color: #21B573;
+    border-radius: 33px;
+    text-decoration: none;
+}
+
+.main-text h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.main-text p{
+    line-height: 36px;
+}
+
+.head{
+    background-color: #F0FFF0;
+    height: 600px;
+}
+
+.header-area{
+    padding-top: 10px;
+}
+.hero-area{
+    padding-top: 70px;
+}
+
+.card-img{
+    padding-top: 30px;
+}
+
+.card-img img{
+    width: 66px;
+    height: 76px;
+}
+
+.card {
+    text-align: center;
+    padding: 30px;
+    padding: 35px 0px;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    border: none;
+}
+
+.mar{
+    margin: 40px 0px;
+    height: 300px;
+}
+
+.card-text{
+    margin-top: 20px;
+}
+
+.card-text h6{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.card-text p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cardext{
+    background-color: white !important;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1) !important;
+}
+
+.test-img img{
+    width: 120px;
+    height: 120px;
+    margin-left: 100px;
+}
+
+.test h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.pading{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.testtext{
+    position: absolute;
+    margin-top: -105px;
+}
+
+.testtext p{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 250px;
+}
+
+.footer-area{
+    background-color: #282531;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+.footer-area{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.spc-text p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.menu-area2 {
+    padding-left: 100px;
+}
+.menu-area3{
+    padding-left: 100px;
+}
+
+.link-text a{
+    font-weight: 700 !important;
+}
+
+.menu-area2 li, .menu-area3 li, .menu-area1 li{
+    line-height: 30px;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 50px;
+}
