@@ -130,7 +130,6 @@ span{
 .test-img img{
     width: 120px;
     height: 120px;
-    margin-left: 100px;
 }
 
 .test h1{
@@ -146,8 +145,6 @@ span{
     padding-bottom: 100px;
 }
 .testtext{
-    position: absolute;
-    margin-top: -105px;
 }
 
 .testtext p{
@@ -155,7 +152,6 @@ span{
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    margin-left: 250px;
 }
 
 .footer-area{
@@ -251,18 +247,112 @@ footer p{
 .navbar-brand{
     width: 150px;
 }
+@media (max-width: 992px){
+    .main-text h1{
+        font-size: 38px;
+            line-height: 48px;
+    }
+    .main-text h6{
+        font-size: 14px;
+    }
+    .main-text p {
+        font-size: 13px;
+            line-height: 29px;
+    }
+    .get-btn a {
+            font-size: 13px;
+            padding: 6px 15p
+    }
+    .get-btn {
+        padding-top: 10px;
+        margin-top: 0px;
+    }
+    .hero-area {
+        padding-top: 50px;
+    }
+    .head{
+        height: 500px;
+    }
+    .testtext p{
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .menu-area2{
+        padding-left: 30px;
+    }
+    .menu-area3{
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 768px){
+    .main-text h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .main-text h6{
+        font-size: 13px;
+    }
+    .main-text p {
+        font-size: 11px;
+        line-height: 19px;
+    }
+    .get-btn a {
+            font-size: 13px;
+            padding: 6px 15px;
+    }
+    .get-btn {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .hero-area {
+        padding-top: 50px;
+    }
+    .head{
+        height: 400px;
+    }
+    .extra{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-body h5{
+        font-size: 16px;
+    }
+    .card-body p{
+        font-size: 12px;
+    }
+    .buy-btn{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    .test-img {
+        justify-content: center !important;
+    }
+    .testtext p {
+        text-align: center;
+    }
+    .menu-area2{
+        padding-left: 40px;
+    }
+    .menu-area3{
+        padding-left: 40px;
+    }
+    .spc-text p{
+        text-align: center;
+    }
+}
 
 @media (max-width: 500px){
     .main-text h1{
         font-size: 20px;
-        line-height: 30px;
+        line-height: 25px;
     }
     .main-text h6{
         font-size: 12px;
     }
     .main-text p {
         font-size: 10px;
-        line-height: 16px;
+        line-height: 13px;
     }
     .get-btn a {
         font-size: 12px;
@@ -274,5 +364,24 @@ footer p{
     }
     .hero-area {
         padding-top: 30px;
+    }
+    .head{
+        height: 300px;
+    }
+    .menu-area2{
+        padding-left: 0px;
+    }
+    .menu-area3{
+        padding-left: 0px;
+    }
+    .card-body h5{
+        line-height: 12px;
+        text-align: center !important;
+    }
+    .card-body p{
+        text-align: center;
+    }
+    .buy-btn{
+        float: none;
     }
 }
