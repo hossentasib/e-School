@@ -7,17 +7,21 @@ body{
 }
 
 .navbar-nav li a{
-    color: black;
+    color:#000000 !important;
     font-weight: 400;
     font-size: 16px;
 }
 .btn-primary{
     width: 104px;
-    height: 43px;
     border-radius: 33px;
     background-color: #21B573;
 }
-
+.nav-item a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 24px;
+}
 .navbar-expand-lg .navbar-nav .nav-link{
     padding-right: 1.5rem;
 }
