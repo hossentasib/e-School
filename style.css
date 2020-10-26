@@ -340,18 +340,22 @@ footer p{
     .spc-text p{
         text-align: center;
     }
+    .extra{
+        display: flex !important;
+        flex-direction: column;
+    }
 }
 
-@media (max-width: 500px){
+@media (max-width: 540px){
     .main-text h1{
         font-size: 20px;
         line-height: 25px;
     }
     .main-text h6{
-        font-size: 12px;
+        font-size: 10px;
     }
     .main-text p {
-        font-size: 10px;
+        font-size: 8px;
         line-height: 13px;
     }
     .get-btn a {
@@ -363,7 +367,7 @@ footer p{
         margin-top: 0px;
     }
     .hero-area {
-        padding-top: 30px;
+        padding-top: 20px;
     }
     .head{
         height: 300px;
@@ -383,5 +387,15 @@ footer p{
     }
     .buy-btn{
         float: none;
+    }
+    .wid{
+        
+    }
+    .hero-area{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .navbar-brand img {
+        width: 110px !important;
     }
 }
