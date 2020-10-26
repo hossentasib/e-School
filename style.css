@@ -244,3 +244,35 @@ footer p{
 .card-body h5{
     color: #413960;
 }
+.navbar-toggler-icon{
+    float: right !important;
+}
+
+.navbar-brand{
+    width: 150px;
+}
+
+@media (max-width: 500px){
+    .main-text h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .main-text h6{
+        font-size: 12px;
+    }
+    .main-text p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .get-btn a {
+        font-size: 12px;
+        padding: 5px 12px;
+    }
+    .get-btn {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .hero-area {
+        padding-top: 30px;
+    }
+}
