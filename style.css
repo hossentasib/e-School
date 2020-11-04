@@ -122,7 +122,7 @@ span{
     font-weight: 400;
 }
 
-.cardext{
+.card:hover{
     background-color: white !important;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1) !important;
 }
